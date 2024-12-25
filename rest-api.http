@@ -1,0 +1,19 @@
+### Send POST request with json body
+POST http://localhost:3000/api/start
+Content-Type: application/json
+
+{
+  "id": 18,
+  "url": "https://mediaserver.zituredev.ir/?roomId=1&userId=139"
+}
+
+### Send POST request with json body
+POST http://localhost:3000/api/stop
+Content-Type: application/json
+
+{
+  "id": 18
+}
+
+### Send GET request
+GET http://localhost:3000/api/status/6

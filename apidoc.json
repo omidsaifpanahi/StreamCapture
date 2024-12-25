@@ -1,0 +1,10 @@
+{
+    "name": "Software Stream",
+    "version": "1.0.0",
+    "description": "Software Stream",
+    "apidoc": {
+        "title": "Custom apiDoc browser title",
+        "url": "https://mediaserver.zituredev.ir/",
+        "order": ["Error", "Define", "PostTitleAndError", "PostError"]
+    }
+}
